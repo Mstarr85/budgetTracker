@@ -1,3 +1,13 @@
+// // Make sure sw are supported 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('../sw_cached_pages.js')
+      .then(reg => console.log('Service Worker: Registered'))
+      .catch(err => console.log(`Service Worker: Error: ${err}`));
+  });
+}
+
 let transactions = [];
 let myChart;
 
@@ -139,12 +149,12 @@ function sendTransaction(isAdding) {
     });
 }
 
-document.querySelector("#add-btn").addEventListener("click", function(event) {
+document.querySelector("#add-btn").addEventListener("click", function (event) {
   event.preventDefault();
   sendTransaction(true);
 });
 
-document.querySelector("#sub-btn").addEventListener("click", function(event) {
+document.querySelector("#sub-btn").addEventListener("click", function (event) {
   event.preventDefault();
   sendTransaction(false);
 });
