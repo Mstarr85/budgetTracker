@@ -1,6 +1,9 @@
 ![image](https://user-images.githubusercontent.com/53281244/75939209-90a32c80-5e57-11ea-8466-84f47640f9ac.png)
 
-# Unit 18 PWA Homework: Online/Offline budgetTracker
+# budgetTracker
+
+## Description 
+
  * Add expenses and deposits to budget with or without a connection
 
  * Functional App files were provided however I was responsible to make the app function offline as well.
