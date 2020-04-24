@@ -7,15 +7,16 @@
  * Add expenses and deposits to budget with or without a connection
 
  * Functional App files were provided however I was responsible to make the app function offline as well.
+ 
+## Installation Instructions
 
+ * Click on Heroku Deployed Link provided below
+ 
+## How It Works
 
-# Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-# When brought back online:
+ * 
+ 
+## When brought back online:
 
   * Offline entries should be added to tracker.
 
