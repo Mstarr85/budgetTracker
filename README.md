@@ -14,18 +14,16 @@
  
 ## How It Works
 
- * 
+ * In the "Transaction Name" form type the name of the transaction user would like to add
  
-## When brought back online:
+ * In the "Transaction Amount" form type how much money the user would like to add
+ 
+ * Click the appropriate button, either "Add Funds" or "Subtract Funds"
+ 
+ * User's Transaction will be added to list then shown on graph
+ 
+ * Data can be added while offline then when back online will be automatically added to database
 
-  * Offline entries should be added to tracker.
-
-# Instructions
-
-  * Click on link to Heroku Deployed App 
-  * Create a name for your transaction
-  * Enter the amount 
-  * Either click on the Add Funds or Subtract Funds button 
   
 # Github Link
 
@@ -78,7 +76,13 @@ THE SOFTWARE.
 
 
 
-
+Mongodb
+Express
+javascript
+NodeJS
+HTML
+CSS
+Bootstrap
 
 
 
